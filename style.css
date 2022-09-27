@@ -3,3 +3,42 @@
     padding: 0;
 }
 
+body {
+    background: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+}
+
+section {
+    margin: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.header {
+    /* background: hsl(211, 68%, 94%); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.notification {
+    display: flex;
+    gap: 10px;
+}
+
+.notification h2 {
+    background: hsl(219, 85%, 26%);
+    border-radius: 8px;
+    padding: 0 15px;
+    color: hsl(210, 60%, 98%);
+}
+
+.not-col div {
+    margin-bottom: 15px;
+}
+
+.not-col div.active{
+    background: hsl(211, 68%, 94%);
+    border-radius: 25px;
+}

@@ -5,48 +5,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
-  <title>Frontend Mentor | Notifications page</title>
+  
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Frontend Mentor | Notifications page</title>
 </head>
 <body>
-
-  Notifications 3
-
-  Mark all as read
-
-  Mark Webber reacted to your recent post My first tournament today!
-  1m ago
-
-  Angela Gray followed you
-  5m ago
-
-  Jacob Thompson has joined your group Chess Club
-  1 day ago
-
-  Rizky Hasanuddin sent you a private message
-  5 days ago
-  Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
-  I'm already having lots of fun and improving my game.
-
-  Kimberly Smith commented on your picture
-  1 week ago
-
-  Nathan Peterson reacted to your recent post 5 end-game strategies to increase your win rate
-  2 weeks ago
-
-  Anna Kim left the group Chess Club
-  2 weeks ago
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Carlos Cabanaconza</a>.
-  </div>
+  <section class="header">
+    <div class="notification">
+      <h1>Notifications</h1>
+      <h2>3</h2>
+    </div>
+    <h3 class="mark">Mark all as read</h3>
+  </section>
+  <section class="not-col">
+    <div class="active">
+      <img src="assets/images/avatar-mark-webber.webp" alt="">
+      <p><span class="user">Mark Webber</span> reacted to your recent post <span class="bold">My first tournament today!</span></p>
+      <h4>1m ago</h4>
+    </div>
+    <div class="active">
+      <img src="assets/images/avatar-angela-gray.webp" alt="">
+      <p><span class="user">Angela Gray</span> followed you</p>
+      <h4>5m ago</h4>
+    </div>
+    <div class="active">
+      <img src="assets/images/avatar-jacob-thompson.webp" alt="">
+      <p><span class="user">Jacob Thompson</span> has joined your group <span class="bold-blue">Chess Club</span></p>
+      <h4>1 day ago</h4>
+    </div> 
+    <div>
+      <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="">
+      <p><span class="user">Rizky Hasanuddin</span> sent you a private message</p>
+      <h4>5 days ago</h4>
+      <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</p>
+    </div>
+    <div class="kimberly">
+      <div>
+        <img src="assets/images/avatar-kimberly-smith.webp" alt="">
+        <p><span class="user">Kimberly Smith</span> commented on your picture</p>
+        <h4>1 week ago</h4>
+      </div>
+      <img src="assets/images/image-chess.webp" alt="">
+    </div>
+    <div>
+      <img src="assets/images/avatar-nathan-peterson.webp" alt="">
+      <p><span class="user">Nathan Peterson</span> reacted to your recent post <span>5 end-game strategies to increase your win rate</span></p>
+      <h4>2 weeks ago</h4>
+    </div>
+    <div>
+      <img src="assets/images/avatar-anna-kim.webp" alt="">
+      <p><span class="user">Anna Kim</span> left the group <span class="bold-blue">Chess Club</span></p>
+      <h4>2 weeks ago</h4>
+    </div> 
+  </section>
 </body>
 </html>
