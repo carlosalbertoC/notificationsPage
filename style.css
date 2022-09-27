@@ -16,6 +16,12 @@ p {
     font-size: 16px;
 }
 
+span {
+    font-weight: 600;
+}
+
+
+
 .header {
     /* background: hsl(211, 68%, 94%); */
     display: flex;
@@ -34,11 +40,38 @@ p {
     color: hsl(210, 60%, 98%);
 }
 
-.not-col div {
+.not-col > div {
     margin-bottom: 15px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.not-col img {
+    width: 50px;
+    height: 50px;
+
 }
 
 .not-col div.active{
     background: hsl(211, 68%, 94%);
     border-radius: 25px;
+}
+
+.user {
+    font-weight: 800;
+}
+
+.bubble {
+    display: flex;
+    flex-direction: column;
+}
+
+.kimberly {
+    display: flex;
+    justify-content: space-between;
+}
+
+.k-bubble {
+    display: flex;
 }
